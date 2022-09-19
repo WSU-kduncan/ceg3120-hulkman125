@@ -34,12 +34,13 @@ async def on_message(message):
         return
 
     hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+        'Luke, I am Your Father!',
+        'YOU SHALL NOT PASS!',
+        'With great power come great responcibility.',
+        'Why did it have to be snakes?.',
+
     ]
-    if message.content == 'towel!':
+    if message.content == 'April Moon':
     #if message.content.startswith('$towel'):
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
