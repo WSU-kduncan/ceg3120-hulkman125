@@ -30,7 +30,7 @@ async def on_message(message):
         return
 
     brooklyn_99_quotes = [
-        'I\'m the human form of the ðŸ’¯ emoji.',
+        'I\'m the human form of the 💯 emoji.',
         'Bingpot!',
         (
             'Cool. Cool cool cool cool cool cool cool, '
@@ -39,10 +39,11 @@ async def on_message(message):
     ]
 
     hitchhiker_quotes = [
+        
         'It was beauty killed the beast.',
         'To infinity and beyond!',
         'Why so serious?',
-        'I find your lack of faith disturbing.',
+        'I find your lack of faith disturbing.'
     ]
 
     if message.content == 'movie':
