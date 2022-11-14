@@ -13,8 +13,6 @@ Step 2:
             FROM nginx
             
             COPY index.html /usr/share/nginx/html
-
-            CMD ["/usr/share/nginx/html/index.html"]
         
     //Then include the following command to include an image using a Dockerfile:
 
